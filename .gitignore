@@ -1,0 +1,53 @@
+# Ignore R project files
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.Rproj/*
+.Rproj.user/*
+.vscode/*
+
+
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Ignore Excel and other data files
+*.xlsx
+*.xlsb
+*.csv
+
+# Ignore Power BI files
+*.pbix
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore outputs and generated files
+Outputs/
+Inputs/2024/W*/
+Inputs/2025/W*/
+Outputs/*.xls*
+Outputs/*.pbi*
+Inputs/*.xls*
+Inputs/*
+
+# Ignore other unnecessary files
+.DS_Store
+Thumbs.db
+
+# Ignore virtual environments
+venv/
+.env/
+
+*.xls*
+*.pbi*
+*.csv
